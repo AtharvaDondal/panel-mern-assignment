@@ -1,0 +1,61 @@
+{
+  "hash": "050565a8",
+  "configHash": "8673cb15",
+  "lockfileHash": "ee968a13",
+  "browserHash": "34a2d7d0",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "29eb4cfd",
+      "needsInterop": true
+    },
+    "antd/es/card/Card": {
+      "src": "../../node_modules/antd/es/card/Card.js",
+      "file": "antd_es_card_Card.js",
+      "fileHash": "8c2856d1",
+      "needsInterop": false
+    },
+    "antd": {
+      "src": "../../node_modules/antd/es/index.js",
+      "file": "antd.js",
+      "fileHash": "a822fdd1",
+      "needsInterop": false
+    },
+    "antd/es/input/Input": {
+      "src": "../../node_modules/antd/es/input/Input.js",
+      "file": "antd_es_input_Input.js",
+      "fileHash": "000e6c5c",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "ecaf55a1",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "fe6b743e",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-FG3RI5II": {
+      "file": "chunk-FG3RI5II.js"
+    },
+    "chunk-CVND37KM": {
+      "file": "chunk-CVND37KM.js"
+    },
+    "chunk-WSIDQILN": {
+      "file": "chunk-WSIDQILN.js"
+    },
+    "chunk-QPG7G3M7": {
+      "file": "chunk-QPG7G3M7.js"
+    },
+    "chunk-UTEJFLXC": {
+      "file": "chunk-UTEJFLXC.js"
+    }
+  }
+}

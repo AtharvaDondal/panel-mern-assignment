@@ -1,0 +1,140 @@
+/* Overall styling for the form */
+.create-employee-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .create-employee-container:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  input,
+  select,
+  button {
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  input[type="file"] {
+    padding: 4px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #388e3c;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Table for better visualization in CreateEmployee */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+  }
+  
+  @media (max-width: 600px) {
+    .create-employee-container {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    table {
+      font-size: 12px;
+    }
+  
+    input,
+    select,
+    button {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
+  

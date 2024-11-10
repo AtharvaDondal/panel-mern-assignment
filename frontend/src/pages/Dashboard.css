@@ -1,0 +1,90 @@
+/* Dashboard.css */
+.dashboard-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.user-info p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.dashboard-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.cancel-button {
+  width: 50px;
+}
+
+.save-button {
+  width: 50px;
+}
+
+p input {
+  padding: 7px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: black;
+  background-color: #f1f1f1;
+}
+
+.edit-button,
+.logout-button {
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 7px;
+}
+
+.gap-2 {
+  gap: 2px;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+}
+
+.logout-button:hover {
+  background-color: #e53935;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

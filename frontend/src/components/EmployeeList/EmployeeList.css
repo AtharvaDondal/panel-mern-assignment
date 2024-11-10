@@ -1,0 +1,125 @@
+/* Styling for Employee List */
+.employee-list-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .employee-list-container:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  img {
+    border-radius: 50%;
+    max-width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #d84315;
+  }
+  
+  .no-employees-message {
+    font-size: 16px;
+    color: #777;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .employee-list-container {
+      padding: 15px;
+      width: 95%;
+    }
+  
+    table th, table td {
+      font-size: 12px;
+      padding: 10px;
+    }
+  
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    table {
+      font-size: 12px;
+    }
+  
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
